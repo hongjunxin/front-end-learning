@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>css3选择器优先级</title>
+    <style type="text/css">
+        #box {
+            color: red;
+        }
+        .dv {
+            color: blue;
+        }
+        div {
+            color: black;
+        }
+        * {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="dv" class="box" style="color: orange;">
+        我是一个div
+    </div>
+</body>
+
+</html>

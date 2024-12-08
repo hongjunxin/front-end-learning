@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>宽高不定实现盒子水平垂直居中</title>
+    <style type="text/css">
+    .box {
+        border: 1px solid #00ee00;
+        height: 300px;
+        position: relative;
+    }
+
+    .box1 {
+        border: 1px solid red;
+        position: absolute;
+
+        /* top left 50% 使得 box1 的左上角点在 box 的中点 */
+        top: 50%;
+        left: 50%;
+
+        /* 再让上和左都位移 -50% 距离，这样 box1 就居中于 box */
+        transform: translate(-50%, -50%);
+    }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="box1">
+            慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网慕课网
+        </div>
+    </div>
+</body>
+
+</html>

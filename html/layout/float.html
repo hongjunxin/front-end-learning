@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>浮动模型</title>
+    <style type="text/css">
+    div {
+        border: 2px red solid;
+        width: 200px;
+        height: 400px;
+        margin: 10px;
+    }
+    #div1 {float: left;}
+    #div2 {float: right;}
+    </style>
+</head>
+
+<body>
+    <div id="div1">栏目1</div>
+    <div id="div2">栏目2</div>
+    <div id="div2">栏目2</div>
+    <div id="div2">栏目2</div>
+</body>
+
+</html>
+
+<!--
+块元素默认情况下会独占一行，使用 float 属性可以让多个块元素并排
+-->
